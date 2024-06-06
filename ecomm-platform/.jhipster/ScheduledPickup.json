@@ -1,0 +1,25 @@
+{
+  "annotations": {
+    "changelogDate": "20240603131827"
+  },
+  "applications": "*",
+  "fields": [
+    {
+      "fieldName": "shopperId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "orderId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "date",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "name": "ScheduledPickup",
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

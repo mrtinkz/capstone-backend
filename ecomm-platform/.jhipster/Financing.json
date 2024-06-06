@@ -1,0 +1,35 @@
+{
+  "annotations": {
+    "changelogDate": "20240603131831"
+  },
+  "applications": "*",
+  "fields": [
+    {
+      "fieldName": "provider",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "interestRate",
+      "fieldType": "Float",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "loanTerm",
+      "fieldType": "Integer",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "downPayment",
+      "fieldType": "BigDecimal"
+    },
+    {
+      "fieldName": "orderId",
+      "fieldType": "Long"
+    }
+  ],
+  "name": "Financing",
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

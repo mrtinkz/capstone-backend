@@ -1,0 +1,37 @@
+{
+  "annotations": {
+    "changelogDate": "20240603131830"
+  },
+  "applications": "*",
+  "entityTableName": "jhi_order",
+  "fields": [
+    {
+      "fieldName": "shopperId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "OrderStatus",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "PENDING,ACCEPTED,REJECTED,COMPLETED"
+    },
+    {
+      "fieldName": "scheduledDeliveryDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "vehicleId",
+      "fieldType": "Long",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "dealerId",
+      "fieldType": "Long",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "name": "Order",
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

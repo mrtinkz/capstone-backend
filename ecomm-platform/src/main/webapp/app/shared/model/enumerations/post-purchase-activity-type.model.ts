@@ -1,0 +1,5 @@
+export enum PostPurchaseActivityType {
+  PAPERWORK_COMPLETION = 'PAPERWORK_COMPLETION',
+
+  UPLOAD_DOCUMENTS = 'UPLOAD_DOCUMENTS',
+}

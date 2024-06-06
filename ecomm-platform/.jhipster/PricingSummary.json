@@ -1,0 +1,38 @@
+{
+  "annotations": {
+    "changelogDate": "20240603131832"
+  },
+  "applications": "*",
+  "fields": [
+    {
+      "fieldName": "msrp",
+      "fieldType": "BigDecimal",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "taxesAndFees",
+      "fieldType": "BigDecimal",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "incentives",
+      "fieldType": "BigDecimal"
+    },
+    {
+      "fieldName": "tradeInEstimate",
+      "fieldType": "BigDecimal"
+    },
+    {
+      "fieldName": "subscriptionServices",
+      "fieldType": "BigDecimal"
+    },
+    {
+      "fieldName": "protectionPlan",
+      "fieldType": "BigDecimal"
+    }
+  ],
+  "name": "PricingSummary",
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

@@ -1,0 +1,29 @@
+{
+  "annotations": {
+    "changelogDate": "20240603131829"
+  },
+  "applications": "*",
+  "fields": [
+    {
+      "fieldName": "postPurchaseActivityId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "mimeType",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "data",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "image"
+    }
+  ],
+  "name": "DocumentBlob",
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

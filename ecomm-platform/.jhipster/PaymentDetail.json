@@ -1,0 +1,49 @@
+{
+  "annotations": {
+    "changelogDate": "20240603131835"
+  },
+  "applications": "*",
+  "fields": [
+    {
+      "fieldName": "orderId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "paymentType",
+      "fieldType": "PaymentType",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "CREDIT_CARD,DEBIT_CARD,BANK_TRANSFER"
+    },
+    {
+      "fieldName": "paymentAmount",
+      "fieldType": "BigDecimal",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "paymentDate",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "cardType",
+      "fieldType": "CardType",
+      "fieldValues": "VISA,MASTERCARD,AMEX,DISCOVER"
+    },
+    {
+      "fieldName": "cardNumber",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "cardHolderName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "cardExpirationDate",
+      "fieldType": "LocalDate"
+    }
+  ],
+  "name": "PaymentDetail",
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

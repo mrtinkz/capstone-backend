@@ -1,0 +1,21 @@
+{
+  "annotations": {
+    "changelogDate": "20240603131826"
+  },
+  "applications": "*",
+  "fields": [
+    {
+      "fieldName": "shopperId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "date",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "name": "ScheduledTestDrive",
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

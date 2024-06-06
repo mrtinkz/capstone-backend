@@ -1,0 +1,28 @@
+{
+  "annotations": {
+    "changelogDate": "20240603131828"
+  },
+  "applications": "*",
+  "fields": [
+    {
+      "fieldName": "orderId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "activityType",
+      "fieldType": "PostPurchaseActivityType",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "PAPERWORK_COMPLETION,UPLOAD_DOCUMENTS"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "PostPurchaseActivityStatus",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "PENDING,IN_PROGRESS,COMPLETED"
+    }
+  ],
+  "name": "PostPurchaseActivity",
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

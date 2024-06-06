@@ -1,0 +1,28 @@
+{
+  "annotations": {
+    "changelogDate": "20240603131823"
+  },
+  "applications": "*",
+  "fields": [
+    {
+      "fieldName": "userId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "firstName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "lastName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "email",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Shopper",
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

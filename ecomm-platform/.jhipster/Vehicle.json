@@ -1,0 +1,45 @@
+{
+  "annotations": {
+    "changelogDate": "20240603131824"
+  },
+  "applications": "*",
+  "fields": [
+    {
+      "fieldName": "vin",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "make",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "model",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "modelYear",
+      "fieldType": "Integer",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "dealerId",
+      "fieldType": "Long",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "pricingSummaryId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "vehicleOptionsId",
+      "fieldType": "Long"
+    }
+  ],
+  "name": "Vehicle",
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

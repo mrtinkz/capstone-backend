@@ -1,0 +1,20 @@
+{
+  "annotations": {
+    "changelogDate": "20240603131834"
+  },
+  "applications": "*",
+  "fields": [
+    {
+      "fieldName": "shopperId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "vehicleId",
+      "fieldType": "Long"
+    }
+  ],
+  "name": "ShoppingCart",
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

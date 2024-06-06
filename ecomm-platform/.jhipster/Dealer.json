@@ -1,0 +1,37 @@
+{
+  "annotations": {
+    "changelogDate": "20240603131825"
+  },
+  "applications": "*",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "address",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "city",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "state",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "zipCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "website",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Dealer",
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}
